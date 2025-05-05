@@ -17,3 +17,28 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('password').value = savedPassword;
     }
 });
+
+
+
+// 禁止右击
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+// 禁止选中文本
+document.addEventListener('selectstart', function (e) {
+    e.preventDefault();
+});
+
+// 禁止复制
+document.addEventListener('copy', function (e) {
+    e.preventDefault();
+});
+
+// 禁止鼠标拖拽图片
+const images = document.getElementsByTagName('img');
+for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener('dragstart', function (e) {
+        e.preventDefault();
+    });
+}
