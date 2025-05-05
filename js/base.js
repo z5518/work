@@ -20,10 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// 禁止右击
-document.addEventListener('contextmenu', function (e) {
-    e.preventDefault();
-});
+
 
 // 禁止选中文本
 document.addEventListener('selectstart', function (e) {
