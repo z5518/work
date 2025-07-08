@@ -2,6 +2,26 @@ const resources = [
     {
         type: "image",
         title: "Boralex Member",
+        src: "https://i.imgur.com/6nYu7r0.jpeg",
+    },
+    {
+        type: "image",
+        title: "Boralex Member",
+        src: "https://i.imgur.com/zWHX9Tf.jpeg",
+    },
+    {
+        type: "image",
+        title: "Boralex Member",
+        src: "https://i.imgur.com/s43PCMn.jpeg",
+    },
+    {
+        type: "image",
+        title: "Boralex Member",
+        src: "https://i.imgur.com/JTZYTlk.jpeg",
+    },
+    {
+        type: "image",
+        title: "Boralex Member",
         src: "https://i.imgur.com/6dzfY3f.jpeg",
     },
     {
@@ -13,6 +33,12 @@ const resources = [
         type: "image",
         title: "Boralex Member",
         src: "https://i.imgur.com/FxKtgRu.jpeg",
+    },
+
+    {
+        type: "video",
+        title: "Promotional Video",
+        src: "https://www.youtube.com/embed/xnYswaKqgH4",
     },
 
     {
